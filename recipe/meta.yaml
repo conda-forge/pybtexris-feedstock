@@ -1,13 +1,13 @@
 {% set name = "pybtexris" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pybtexris-{{ version }}.tar.gz
-  sha256: 84ce8d59e2934d8c5416fe2cc6d57c2fbf3d8ab0c330dcb2103b687491158ebd
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pybtexris-{{ version }}.tar.gz
+  sha256: 8b55aecb7a2370bb98b592befffc776e8d2d05ad62b8754dfa23070cb2d87c4f
 
 build:
   noarch: python
